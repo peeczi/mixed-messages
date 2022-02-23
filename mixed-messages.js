@@ -10,6 +10,9 @@ const messages = [
     'Anybody can learn how to code'
 ];
 
-
+// function to randomize index to choose a message from the array
+function randomMessage() {
+    return Math.floor(Math.random() * messages.length - 1);
+}
 
 
