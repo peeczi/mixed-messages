@@ -15,4 +15,5 @@ function randomMessage() {
     return Math.floor(Math.random() * messages.length - 1);
 }
 
-
+// start program with a welcome message
+console.log('Welcome to Mixed Messager - Computer Programming Edition');
