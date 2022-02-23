@@ -17,3 +17,9 @@ function randomMessage() {
 
 // start program with a welcome message
 console.log('Welcome to Mixed Messager - Computer Programming Edition');
+
+// save the random index to a variable for reference
+const randomMsg = randomMessage();
+
+// display message
+console.log(messages[randomMsg]);
