@@ -30,3 +30,6 @@ messages.forEach(function (element) {
         console.log(element);
     }
 });
+
+// print out most important message for the current moment
+console.log(messages[randomMessage()].toUpperCase());
