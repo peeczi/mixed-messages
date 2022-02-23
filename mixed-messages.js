@@ -23,3 +23,10 @@ const randomMsg = randomMessage();
 
 // display message
 console.log(messages[randomMsg]);
+
+// combine all messages
+messages.forEach(function (element) {
+    if (element !== messages[randomMsg]) {
+        console.log(element);
+    }
+});
